@@ -1,0 +1,56 @@
+#box{
+    background: rgb(231, 231, 231);
+    width: 50%;
+    margin: 4rem auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#question{
+    padding: 40px;
+    font-size: 120%;
+    width: 50%;
+    margin: auto;
+}
+#answerChoices{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.buttons{
+    width: 6rem;
+    height: 4rem;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 90%;
+}
+.correctAnswer{
+    background-color: rgb(21, 135, 21);
+}
+.wrongAnswer{
+    background-color:red;
+}
+.hide{
+    display: none;
+}
+#nextQuestion{
+    font-family: 'Josefin Sans', sans-serif;
+    background: none;
+    width: 50%;
+    font-size: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 40px auto;
+}
+.result{
+    display: block;
+    text-align: center;
+    padding: 0px 0px 50px;
+    font-size: 150%;
+}
+.title{
+    padding: 40px 0px 50px;
+    font-size: 150%;
+}
